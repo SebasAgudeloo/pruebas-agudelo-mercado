@@ -1,0 +1,48 @@
+{
+  "info": {
+    "_postman_id": "5ba83f7e-3469-41e1-b81f-226a166caeea",
+    "name": "pruebas-agudelo-mercado",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48656408",
+    "_collection_link": "https://go.postman.co/collection/48656408-5ba83f7e-3469-41e1-b81f-226a166caeea?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "CP-001-Login-Exitoso",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "usuario",
+              "value": "agudelosebastian726@gmail.com",
+              "type": "text",
+              "uuid": "2cf9310b-2e23-4682-9c39-3d460009d96f"
+            },
+            {
+              "key": "contrasena",
+              "value": "Sebas123!",
+              "type": "text",
+              "uuid": "e28b72b2-974f-4221-866e-d46a3de854fb"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/sumixkids/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "sumixkids",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
