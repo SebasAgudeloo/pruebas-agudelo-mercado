@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Modulo-Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CP-001-Login-Exitoso</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:8080/sumixkids/login<datalist><option>http://localhost:8080/sumixkids/login</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>name=username<datalist><option>name=username</option><option>xpath=//input[@name='username']</option><option>xpath=//input</option><option>css=input[name="username"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=username<datalist><option>name=username</option><option>xpath=//input[@name='username']</option><option>xpath=//input</option><option>css=input[name="username"]</option></datalist></td><td>agudelosebastian726@gmail.com</td></tr>
+<tr><td>click</td><td>name=password<datalist><option>name=password</option><option>xpath=//input[@name='password']</option><option>xpath=//div[2]/div/input</option><option>css=input[name="password"]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://mail.google.com/mail/u/0/#inbox<datalist><option>https://mail.google.com/mail/u/0/#inbox</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/sumixkids/login<datalist><option>http://localhost:8080/sumixkids/login</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>xpath=//input[@name='password']</option><option>xpath=//div[2]/div/input</option><option>css=input[name="password"]</option></datalist></td><td>Sebas123!</td></tr>
+<tr><td>click</td><td>name=captcha<datalist><option>name=captcha</option><option>xpath=//input[@name='captcha']</option><option>xpath=//div[@id='captchaSection']/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=input[name="captcha"]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=captcha<datalist><option>name=captcha</option><option>xpath=//input[@name='captcha']</option><option>xpath=//div[@id='captchaSection']/div[2]/input</option><option>xpath=//div[2]/input</option><option>css=input[name="captcha"]</option></datalist></td><td>5</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Por favor, resuelve la operación matemática.'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Crear cuenta'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='¿Olvidaste tu contraseña?'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Entrar']/parent::*</option><option>xpath=//div[4]/button</option><option>css=button.btn.btn-primary.btn-lg.shadow-sm</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/sumixkids/2fa<datalist><option>http://localhost:8080/sumixkids/2fa</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://mail.google.com/mail/u/0/#inbox<datalist><option>https://mail.google.com/mail/u/0/#inbox</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//span[@id=':of']/span<datalist><option>xpath=//span[@id=':of']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='sumixkidsapp'])[2]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Código de verificación 2FA - SumixKids'])[1]/following::span[5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Haz clic para indicar a Gmail que esta conversación es importante'])[1]/preceding::span[6]</option><option>xpath=//td[6]/div/div/div/span/span</option></datalist></td><td></td></tr>
+<tr><td>selectWindow</td><td>win_ser_local<datalist><option>win_ser_local</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='avWBGd-23']/div/div[2]/div/div[2]/p[2]<datalist><option>xpath=//div[@id='avWBGd-23']/div/div[2]/div/div[2]/p[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dispositivo:'])[1]/following::p[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gracias por confiar en SumixKids.'])[1]/preceding::p[4]</option><option>xpath=//*/text()[normalize-space(.)='697185']/parent::*</option><option>xpath=//div[2]/div/div[2]/p[2]</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/sumixkids/2fa<datalist><option>http://localhost:8080/sumixkids/2fa</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=codigo<datalist><option>id=codigo</option><option>name=codigo</option><option>xpath=//input[@id='codigo']</option><option>xpath=//input</option><option>css=#codigo</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=codigo<datalist><option>id=codigo</option><option>name=codigo</option><option>xpath=//input[@id='codigo']</option><option>xpath=//input</option><option>css=#codigo</option></datalist></td><td>697185</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='El código debe tener exactamente 6 dígitos numéricos.'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Volver a inicio de sesión'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='SumixKids'])[1]/preceding::button[1]</option><option>xpath=//*/text()[normalize-space(.)='Verificar']/parent::*</option><option>xpath=//button</option><option>css=button.btn.btn-success.btn-lg.shadow-sm</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:8080/sumixkids/bienvenida<datalist><option>http://localhost:8080/sumixkids/bienvenida</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
