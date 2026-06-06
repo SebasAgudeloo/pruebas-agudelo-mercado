@@ -1,0 +1,3 @@
+| ID      | Caso de prueba                    | Resultado esperado                            | Resultado obtenido                          |
+| ------- | --------------------------------- | --------------------------------------------- | ------------------------------------------- |
+| API-001 | Crear usuario con datos inválidos | El sistema valida y rechaza datos incorrectos | 200 OK - Validación ejecutada correctamente |
